@@ -370,7 +370,7 @@ foundation for custom widgets.
 
             >>> widget = MultiWidget(widgets={'': TextInput, 'last': TextInput})
             >>> widget.render('name', ['john', 'lennon'])
-            '<input type="text" name="name" value="john"><input type="text" name="name_last" value="paul">'
+            '<input type="text" name="name" value="john"><input type="text" name="name_last" value="lennon">'
 
         .. versionchanged::3.1
 
